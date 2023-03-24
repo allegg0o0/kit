@@ -1,0 +1,314 @@
+*
+{   
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+}
+.header
+{
+
+   height: 120px;
+   width: 100%;
+   background: #ff9da2;
+    
+}
+body
+{
+    width: 100%;
+    background-image: url(/img/bg.jpg);  
+    font-family: 'Comfortaa', cursive;
+    display:flex;
+    flex-direction: column;
+}
+
+.container
+{ 
+    background: #ff9da2;
+   
+}
+.content
+{ 
+    background: #fff url(/img/bg.jpg) center center/cover repeat fixed;
+}
+li:hover
+{
+    font-size: larger;
+    font-weight: 900;
+}
+button 
+{
+    font-size: larger;
+    color: #f0ad76;
+    position: relative;
+ 
+}
+.logo 
+{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    right: 0;
+    position:fixed;
+    z-index: 4;
+   background-image: url(/img/logo.jpg);
+   border-radius: 50px;
+   transition: 0.5s ease-in-out;
+}
+.logo:hover
+{
+    transform: scale(1.2);
+}
+.img
+{
+    position: relative;
+    z-index: 2;
+
+}
+.butt1
+{ 
+    position:relative;
+    z-index: 3;
+  
+}
+.butt2
+{ 
+    position:relative;
+    z-index: 3;
+   
+}
+.butt3
+{ 
+    position:relative;
+    z-index: 3;
+   
+}
+#leftcol {
+    position: sticky;
+    top: 50px;
+    margin-top: 250px;
+    padding: 10px;
+    width: 20%;
+    height: 150px;
+    float: left;
+    background: #fff url(/img/bg3.jpg) center center/cover no-repeat;
+    font-size: 20px;
+    
+   }
+ 
+#rightcol {
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 80%;
+    height: 1500px;
+    float: left;
+    background-image: url(/img/bg2.jpg);
+    padding: 20;
+    font-size:xx-large;
+    font-weight: 1000;
+    text-shadow: 0px 0px 10px #f40505;
+  
+    color: #af0000;
+   }
+   .universe
+   {
+    width: 100%;
+    height: 1000px;
+    background: #a7ecfd;
+   }
+
+   .sunbg
+   {
+    height: 275px;
+    width: 275px;
+    position: relative;
+    background: #ffe23e;
+    top: 325px;
+    left:  40%;
+    border-radius: 250px;
+   }
+
+   .sun
+   {
+    width: 275px;
+    height: 275px;
+    position: relative;
+    background-repeat: inherit;
+    background-image: url(/img/sun.jpg);
+    background-size: cover;
+    top: 50px;
+    left:  40%;
+    border-radius: 250px;
+    animation: myAnim 2s ease-in-out 0s infinite normal forwards;
+    transition: 2s;
+   }
+   .sun:hover
+   {
+        transform: rotate(360deg);
+   }
+  
+   .planet1
+   {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 60px;
+    left: 50%;
+    background-image: url(/img/p1.png);
+    background-size: cover;
+    border-radius: 50px;
+    
+    animation: P1 5s ease-in-out 0s infinite;
+    transition: 2s ease-in-out;
+   }
+    .planet2
+    {
+        height: 150px;
+        width: 150px;
+        position: relative;
+        top: -550px;
+        left: 40%;
+        background-image: url(/img/p2.png);
+        background-size: cover;
+        border-radius: 80px;
+
+        animation: P2 6s ease-in-out 0s infinite;
+    }
+
+   
+    .planet3
+    {
+        height: 200px;
+        width: 200px;
+        position: relative;
+        top: -400px;
+        left: 10%;
+        background-image: url(/img/p3.png);
+        background-size: cover;
+        border-radius: 100px;
+
+        animation: P3 7s ease-in-out 0s infinite;
+    }
+
+   
+   .rocket
+   {
+    height: 170px;
+    width: 170px;
+    position: relative;
+    left: 50%;
+    background-image: url(/img/rr.png);
+    background-size: cover;
+    animation: Rock 4s ease-in-out 0s infinite;
+   }
+   .StarCat
+   {
+    height: 270px;
+    width: 270px;
+    bottom: 385px;
+    left: 1250px;
+    position: relative;
+    background-image: url(/img/StarCat.png);
+    background-size: cover;
+   }
+
+
+
+
+
+   @keyframes P1 
+   {
+      
+        100% 
+        {
+            transform-origin: -190px -250px;
+            transform: rotate(360deg);
+            
+        }
+    }
+    @keyframes P2 
+   {     
+        100% 
+        {
+        transform-origin: 400px 550px;
+        transform: rotate(360deg);
+    }
+    }
+    @keyframes P3 
+    {     
+         100% 
+         {
+            transform-origin: 850px -350px;
+            transform: rotate(360deg);
+         }
+    }
+   @keyframes Rock  
+   {
+    0%
+    {
+        bottom: 200px;
+        left: 0;
+        opacity: 1;
+
+    }
+        70%
+        {
+            bottom: 1000px;
+            right: 0;
+            opacity: 1;
+
+        }
+        100% 
+        {
+            right: 0;
+            bottom: 1000px;
+            opacity: 0;
+        }
+    }
+        
+    @keyframes myAnim
+   {
+        0%
+        {
+            opacity: 1;
+        }
+        25%,
+        50% 
+        {
+            opacity: 0.7;
+        }	
+        75% ,
+        100% 
+        {
+            opacity: 1;
+        }
+    }
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    .header
+{
+   height: 70px;
+}
+    .img
+    {
+       width: 100%;  
+    }
+    .logo 
+{
+    height: 50px;
+    width: 50px;
+    background-image: url(/img/logom.jpg);
+}
+#rightcol {
+    height: 1800px
+}
+
+#leftcol {
+    height: 250px;
+    float: right;
+    top: 70px;
+    margin-top: 70px;
+}
+
+}
