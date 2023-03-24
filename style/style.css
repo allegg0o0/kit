@@ -15,7 +15,7 @@ box-sizing: border-box;
 body
 {
     width: 100%;
-    background-image: url(/img/bg.jpg);  
+    background-image: url(url(https://github.com/allegg0o0/kit/blob/aae5dd268da09d8e05b4b0fb54739f67bb95bdca/img/bg.jpg);  
     font-family: 'Comfortaa', cursive;
     display:flex;
     flex-direction: column;
@@ -28,7 +28,7 @@ body
 }
 .content
 { 
-    background: #fff url(https://github.com/allegg0o0/kit/tree/main/img/bg.jpg) center center/cover repeat fixed;
+    background: #fff url(url(https://github.com/allegg0o0/kit/blob/aae5dd268da09d8e05b4b0fb54739f67bb95bdca/img/bg.jpg) center center/cover repeat fixed;
 }
 li:hover
 {
@@ -42,7 +42,6 @@ button
     position: relative;
  
 }
-
 .logo 
 {
     height: 100px;
@@ -51,7 +50,7 @@ button
     right: 0;
     position:fixed;
     z-index: 4;
-   background-image: url(https://github.com/allegg0o0/kit/blob/aae5dd268da09d8e05b4b0fb54739f67bb95bdca/img/logo.jpg);
+   background-image: url(url(https://github.com/allegg0o0/kit/blob/aae5dd268da09d8e05b4b0fb54739f67bb95bdca/img/logo.jpg);
    border-radius: 50px;
    transition: 0.5s ease-in-out;
 }
@@ -91,7 +90,7 @@ button
     width: 20%;
     height: 150px;
     float: left;
-    background: #fff url(/img/bg3.jpg) center center/cover no-repeat;
+    background: #fff url(url(https://github.com/allegg0o0/kit/blob/aae5dd268da09d8e05b4b0fb54739f67bb95bdca/img/bg3.jpg) center center/cover no-repeat;
     font-size: 20px;
     
    }
@@ -104,7 +103,7 @@ button
     width: 80%;
     height: 1500px;
     float: left;
-    background-image: url(/img/bg2.jpg);
+    background-image: url(url(https://github.com/allegg0o0/kit/blob/aae5dd268da09d8e05b4b0fb54739f67bb95bdca/img/bg2.jpg);
     padding: 20;
     font-size:xx-large;
     font-weight: 1000;
@@ -136,7 +135,7 @@ button
     height: 275px;
     position: relative;
     background-repeat: inherit;
-    background-image: url(/img/sun.jpg);
+    background-image: url(url(https://github.com/allegg0o0/kit/blob/aae5dd268da09d8e05b4b0fb54739f67bb95bdca/img/sun.jpg);
     background-size: cover;
     top: 50px;
     left:  40%;
@@ -156,7 +155,7 @@ button
     position: relative;
     top: 60px;
     left: 50%;
-    background-image: url(/img/p1.png);
+    background-image: url(url(https://github.com/allegg0o0/kit/blob/aae5dd268da09d8e05b4b0fb54739f67bb95bdca/img/p1.png);
     background-size: cover;
     border-radius: 50px;
     
@@ -170,7 +169,7 @@ button
         position: relative;
         top: -550px;
         left: 40%;
-        background-image: url(/img/p2.png);
+        background-image: url(url(https://github.com/allegg0o0/kit/blob/aae5dd268da09d8e05b4b0fb54739f67bb95bdca/img/p2.png);
         background-size: cover;
         border-radius: 80px;
 
@@ -185,7 +184,7 @@ button
         position: relative;
         top: -400px;
         left: 10%;
-        background-image: url(/img/p3.png);
+        background-image: url(url(https://github.com/allegg0o0/kit/blob/aae5dd268da09d8e05b4b0fb54739f67bb95bdca/img/p3.png);
         background-size: cover;
         border-radius: 100px;
 
@@ -199,7 +198,7 @@ button
     width: 170px;
     position: relative;
     left: 50%;
-    background-image: url(/img/rr.png);
+    background-image: url(url(https://github.com/allegg0o0/kit/blob/aae5dd268da09d8e05b4b0fb54739f67bb95bdca/img/rr.png);
     background-size: cover;
     animation: Rock 4s ease-in-out 0s infinite;
    }
@@ -210,7 +209,7 @@ button
     bottom: 385px;
     left: 1250px;
     position: relative;
-    background-image: url(/img/StarCat.png);
+    background-image: url(url(https://github.com/allegg0o0/kit/blob/aae5dd268da09d8e05b4b0fb54739f67bb95bdca/img/StarCat.png);
     background-size: cover;
    }
 
@@ -299,7 +298,7 @@ button
 {
     height: 50px;
     width: 50px;
-    background-image: url(/img/logom.jpg);
+    background-image: url(url(https://github.com/allegg0o0/kit/blob/aae5dd268da09d8e05b4b0fb54739f67bb95bdca/img/logom.jpg);
 }
 #rightcol {
     height: 1800px
