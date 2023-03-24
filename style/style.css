@@ -42,6 +42,7 @@ button
     position: relative;
  
 }
+
 .logo 
 {
     height: 100px;
@@ -50,7 +51,7 @@ button
     right: 0;
     position:fixed;
     z-index: 4;
-   background-image: url(../img/logo.jpg);
+   background-image: url(https://github.com/allegg0o0/kit/blob/aae5dd268da09d8e05b4b0fb54739f67bb95bdca/img/logo.jpg);
    border-radius: 50px;
    transition: 0.5s ease-in-out;
 }
