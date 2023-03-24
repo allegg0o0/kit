@@ -50,7 +50,7 @@ button
     right: 0;
     position:fixed;
     z-index: 4;
-   background-image: url(https://github.com/allegg0o0/kit/tree/main/img/logo.jpg);
+   background-image: url(../img/logo.jpg);
    border-radius: 50px;
    transition: 0.5s ease-in-out;
 }
